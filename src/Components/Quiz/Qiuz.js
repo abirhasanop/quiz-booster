@@ -14,7 +14,7 @@ const Qiuz = ({quiz, index, handleAns}) => {
                 {
                     options.map(option => 
                         <div onClick={() => handleAns(option)} className='flex items-center mt-5'>
-                            <input type="checkbox"/>
+                            <input type="radio" name='options'/>
                             <p className='ml-4 font-semibold text-xl'>{option}</p>
                         </div>
                     )
