@@ -1,9 +1,14 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import { LineChart } from 'recharts';
 
 const Statistics = () => {
+    const data = useLoaderData()
     return (
         <div>
-            <h1>This is statistics</h1>
+            <LineChart width={600} height={500} data={data}>
+
+            </LineChart>
         </div>
     );
 };
