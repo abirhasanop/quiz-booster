@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
+import { Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const Statistics = () => {
     const data = useLoaderData()
@@ -12,6 +12,7 @@ const Statistics = () => {
                 <YAxis dataKey="total" />
                 <Line type="monotone" dataKey="total" stroke="#82ca9d" />
                 <Tooltip/>
+                <Legend/>
             </LineChart>
         </div>
     );
