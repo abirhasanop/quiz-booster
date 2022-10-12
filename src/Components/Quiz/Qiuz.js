@@ -9,7 +9,7 @@ const Qiuz = ({quiz, index, handleAns, handleCorrectAns}) => {
     return (
         <div className='border border-spacing-2 border-orange-400 m-10 rounded-lg p-10'>
             <div className='flex justify-between items-center'>
-                <h1 className="text-2xl font-bold">Quiz {index + 1} : {newsQuestion}?</h1>
+                <h1 className="text-2xl font-bold"><span className='text-orange-500'>Quiz {index + 1}</span> : {newsQuestion}?</h1>
                 <FontAwesomeIcon className='cursor-pointer' onClick={() => handleCorrectAns(quiz)} icon={faEye}/>
             </div>
             {/* OPtions */}

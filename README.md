@@ -1,7 +1,19 @@
 <!-- 
+Project Name: Quiz Booster
+Live Link: 
+
+
+
+Description:
 First I installed tailwing. After that i quickly created header component with it. then I installed react, tostify, fontawsome icon and other nessasarry packages. Then I created all component and used API which is given. After that I solved the netlify issue.
 
  -->
+
+
+
+
+
+
 
 # Getting Started with Create React App
 
