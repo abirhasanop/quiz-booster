@@ -6,8 +6,8 @@ const Statistics = () => {
     const data = useLoaderData()
     console.log(data.data)
     return (
-        <div className='mx-auto w-1/2 mt-10'>
-            <ResponsiveContainer width={600} height={500}>
+        <div className='mx-auto w-10/12 sm:w-3/4  xl:w-1/2 mt-10'>
+            <ResponsiveContainer width="100%" height="100%">
                 <LineChart data={data.data}>
                 <XAxis dataKey="name" />
                 <YAxis dataKey="total" />

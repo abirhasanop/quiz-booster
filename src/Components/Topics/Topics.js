@@ -12,7 +12,7 @@ const Home = () => {
             <div className='mx-auto w-3/4'>
                 <HomeHeader/>
             </div>
-            <div className='grid grid-cols-3 w-3/4 mx-auto mt-40 gap-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 w-3/4 mx-auto mt-40 gap-8'>
             {
                 topics.map(topic => <Topic key={topic.id} topic={topic}/>)
             }

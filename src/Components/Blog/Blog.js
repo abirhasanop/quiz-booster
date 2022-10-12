@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='w-3/4 mx-auto shadow-2xl p-8 h-screen'>
+        <div className='w-full lg:w-3/4 mx-auto shadow-2xl p-8 h-screen'>
             <header>
                 <h1 className='text-center text-4xl font-semibold'>Blog</h1>
             </header>

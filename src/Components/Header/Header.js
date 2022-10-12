@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div>
             <nav className='bg-orange-500 h-20'>
-                <div className='container mx-auto text-white flex justify-between items-center h-full'>
+                <div className='container mx-auto text-white flex justify-between items-center h-full px-5 md:py-0'>
                     <div>
                         <h1 className="text-4xl font-semibold">Quiz Booster</h1>
                     </div>

@@ -24,7 +24,7 @@ const Quizes = () => {
     const notify = (message) => toast(message);
 
     return (
-        <div className='w-1/2 mx-auto'>
+        <div className='w-full xl:w-1/2 mx-auto'>
             {
                 quizes.map((quiz, index) => <Qiuz handleCorrectAns={handleCorrectAns} key={quiz.id} index={index} handleAns={handleAns} quiz={quiz}/>)
             }

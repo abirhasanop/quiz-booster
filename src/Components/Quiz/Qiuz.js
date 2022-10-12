@@ -13,7 +13,7 @@ const Qiuz = ({quiz, index, handleAns, handleCorrectAns}) => {
                 <FontAwesomeIcon onClick={() => handleCorrectAns(quiz)} icon={faEye}/>
             </div>
             {/* OPtions */}
-            <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-1 xl:grid-cols-2'>
                 {
                     options.map(option => 
                         <div onClick={() => handleAns(option)} className='flex items-center mt-5'>
