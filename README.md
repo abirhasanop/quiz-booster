@@ -1,4 +1,4 @@
-<!-- 
+
 Project Name: Quiz Booster
 Live Link: https://calm-heliotrope-04d34d.netlify.app/
 
@@ -7,7 +7,7 @@ Live Link: https://calm-heliotrope-04d34d.netlify.app/
 Description:
 First I installed tailwing. After that i quickly created header component with it. then I installed react, tostify, fontawsome icon and other nessasarry packages. Then I created all component and used API which is given. After that I solved the netlify issue.
 
- -->
+
 
 
 
