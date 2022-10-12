@@ -13,6 +13,10 @@ function App() {
       element: <Main></Main>,
       children: [
         {
+          path: '*',
+          element: <h1 className='text-5xl font-semibold text-center'>This Page Do Not Exist: 4O4</h1>
+        },
+        {
           path: '/',
           loader: () => fetch("https://openapi.programming-hero.com/api/quiz"),
           element: <Topics/>
