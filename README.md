@@ -1,3 +1,8 @@
+<!-- 
+First I installed tailwing. After that i quickly created header component with it. then I installed react, tostify, fontawsome icon and other nessasarry packages. Then I created all component and used API which is given. After that I solved the netlify issue.
+
+ -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,7 +77,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-<!-- 
-First I installed tailwing. After that i quickly created header component with it. then I installed react, tostify, fontawsome icon and other nessasarry packages. Then I created all component and used API which is given. After that I solved the netlify issue.
-
- -->
