@@ -16,12 +16,17 @@ const Quizes = () => {
             notify("Wrong Ans")
         }
     }
+
+    const handleCorrectAns = (quiz) => {
+        notify(`Correct Ans: ${quiz.correctAnswer}`)
+    }
+
     const notify = (message) => toast(message);
 
     return (
         <div className='w-1/2 mx-auto'>
             {
-                quizes.map((quiz, index) => <Qiuz key={quiz.id} index={index} handleAns={handleAns} quiz={quiz}/>)
+                quizes.map((quiz, index) => <Qiuz handleCorrectAns={handleCorrectAns} key={quiz.id} index={index} handleAns={handleAns} quiz={quiz}/>)
             }
             <ToastContainer/>
         </div>

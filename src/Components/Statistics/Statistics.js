@@ -7,8 +7,8 @@ const Statistics = () => {
     console.log(data.data)
     return (
         <div className='mx-auto w-1/2 mt-10'>
-            <ResponsiveContainer width={100} height={100}>
-                <LineChart width={600} height={500} data={data.data}>
+            <ResponsiveContainer width={600} height={500}>
+                <LineChart data={data.data}>
                 <XAxis dataKey="name" />
                 <YAxis dataKey="total" />
                 <Line type="monotone" dataKey="total" stroke="#82ca9d" />
